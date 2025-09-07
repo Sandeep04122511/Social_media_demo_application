@@ -1,0 +1,46 @@
+//Initially we need to create a backend streture after that we need to add the codes as per our requirments 
+//then we need to add mango url
+
+//mangourl 
+    - initially we ned to login mangodb atlas and then we need to create a cluster 
+    -after that we need to create a database user
+    -after that we need to connect both so we can analyze it 
+
+
+after completion of all of this then we need to test a backend is working correctely
+so we nned two commands 
+        - npm start 
+        -nodemon server.js
+
+        =if all fix correcly it showes that mangodb connected successfully
+
+        after that in our code we inbuit testig part also 
+        1.Checking weather backend is connected or not
+        ---> http://localhost:5000/test
+
+        2.Checking weather CRUD takes place or not 
+        ---> http://localhost:5000/add-sample
+
+        after all done 
+        -------------------------------------------------------------------------------------------------------------
+        
+        
+        let us make front end for this and make connection for both frontend and backend 
+         now in command fromt 
+         -npx create-react-app frontend
+         -cd frontend // these command creates a front end web pack and install all pakages
+         -npm install axios react-router-dom // it install the packages what are needed for execution 
+ 
+   // create all the requirment streture of your backend 
+   -post
+   -components
+   -pakages
+   -servies 
+
+   test case 
+   -npm start // in terminal pannel 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+         
+
